@@ -1,0 +1,103 @@
+<style type="text/css">
+	table{
+		background: white;
+		color: white;
+		flood-color: white
+		border-collapse: separate;
+		margin: 0 auto;
+		text-align: center;
+		width: 60%
+
+}	
+	th{
+
+		background-color: darkcyan;
+		color: white;
+		font-weight: bold;
+		font-stretch: 19;
+	}
+	tr:nth-child(odd){
+		background-color: darkcyan;
+
+	}
+	td{
+		border: 1px solid black;
+ }
+	
+ body{
+ 	background: lightgray url("img/cinco.jpg");
+ 	background-size:70% 100%;
+ 	font-family: sans-serif;
+ 	font-stretch: semi-expanded;
+ 	font-weight: bold;
+ }
+ form{
+		border: 2px solid black;
+		border-radius: 20px;
+		margin: 1em auto;
+		padding: 1em;
+		text-align: right;
+		width: 45%;
+ 	}
+ input[type="email"],input[type="text"]{
+ 	border-radius: 5px;
+ 	font-weight: bold;
+ 	margin: 0.5em; 
+ 	padding: 0.3em;
+ 	width: 70%
+ }
+
+ input[type="submit"]{
+ 	background-color: lightgray;
+ 	border-radius: 10px;
+ 	color: black;
+ 	cursor: pointer;
+ 	font-size: 1.2em;
+ 	font-weight: bold;
+ 	padding: .2;
+ 	transition: 3s;
+ }
+ input[type="submit"]:hover{
+ 	background-color: purple;
+ 	color: white;
+ 	transition: 1s;
+ }
+ form div{
+ 	text-align: center;
+ }
+ #celdaEliminar,#celdaModificar{
+ 	text-align: center;
+ 	width: 30%;
+ }
+ td form{
+ 	border: 0;
+ 	margin: 0 auto;
+ 	padding: 0;
+ }
+ td form input[type="image"]{
+ 	max-width: 30%;
+ }
+nav{
+	background-color: DarkCyan;
+	text-align: center;
+	width: 100%;
+}
+nav li{
+	border-right: 1px solid black;
+	display: inline-block;
+	list-style: none;
+	padding: 0.1em;
+	text-align: center;
+	width: 8%;
+}
+nav a{
+	color: white;
+	text-decoration: none;
+}
+
+header{
+	font-size: 2em;
+	text-align: center;
+	white: 100%;
+}
+ </style>}
